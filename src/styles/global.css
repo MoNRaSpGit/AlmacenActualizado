@@ -1,0 +1,26 @@
+/* Fondo general */
+body, .scan-page {
+  background-color: #0d1b2a; /* azul oscuro moderno */
+  min-height: 100vh;
+}
+
+/* Tarjeta del formulario */
+.form-card {
+  background-color: #1b263b; /* un azul más claro que el fondo */
+  border: 1px solid #415a77;
+}
+
+/* Botón contrastante */
+.btn-contrast {
+  background-color: #e0e1dd; /* gris claro */
+  color: #0d1b2a;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-contrast:hover {
+  background-color: #778da9; /* gris azulado */
+  color: #fff;
+}
